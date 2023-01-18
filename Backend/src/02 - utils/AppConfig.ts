@@ -9,7 +9,7 @@ class AppConfig {
   public password = "";
 
   // db name
-  public database = "********";
+  public database = "ikea";
 
   // port
   public port = 3001;

@@ -4,7 +4,7 @@ import dataLogic from "../05 - logic/dataLogic";
 const router = express.Router();
 
 router.get(
-  "_______",
+  "/furniture",
   async (request: Request, response: Response, next: NextFunction) => {
     try {
       const product = await dataLogic.getData();
